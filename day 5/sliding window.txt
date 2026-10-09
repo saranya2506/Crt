@@ -1,0 +1,12 @@
+#sliding window
+i=0
+j=0
+window_sum=0
+#check for window size
+if(j-i+1!=k):
+  j+=1
+#check if size archieved
+else:
+  #math operations
+  i+=1
+  j+=1
