@@ -1,0 +1,37 @@
+#missing number
+nums=list(map(int,input().split())
+n=len(nums)
+original_sum=n*(n+1)//2
+arr_sum=sum(nums)
+return original_sum-arr_sum
+
+
+#217 leetcode
+nums=list(map(int,input().split()))
+freq={}
+for i in nums:
+  freq[i]=freq.get(i,0)+1
+if 2 in freq.values():
+  print("true")
+else:
+  print("false")
+
+
+bool isPalindrome(int x) {
+    long long rev=0;
+    int duplicate=x;
+    while(x>0)
+    {
+        int ld=x%10;
+        x=x/10;
+        rev=(rev*10)+ld;
+    }
+    if(rev==duplicate)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
